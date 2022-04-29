@@ -1,0 +1,236 @@
+body{
+      margin: 0;
+      width: 100%;
+}
+.center{
+    margin:auto;
+    text-align: center;
+    align-items: center;
+
+}
+#Heading{
+    background-image: url(project.png);
+    width: 100% ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+
+
+   
+}
+#myskills{
+    background-color: rgb(188, 222, 244);
+     margin-bottom: 0;
+}
+#qualification{
+   margin-top: 0;
+    padding: 4% 10% 7% 10%;
+    background-color: #4B7BE5;
+    width: 100%;
+}
+#contact{
+    background-color: #06113C;
+}
+
+#footer{
+    background-color: #06113C;
+    padding: 1% 4%;
+}
+.div1{
+    padding: 7% 4% 10% 4%;
+    margin-left: 60px;
+}
+.project{
+    padding: 7% 4% 3% 4%;
+}
+.container{
+    padding: 7% 15% 7% 15%;
+    
+}
+
+.navbar{
+    z-index: 2;
+     opacity: 0.95;
+     width: 100%;
+    
+}
+.navbar-brand{
+    margin-right: 0;
+}
+
+
+
+.img2,.img3{
+    height:200px;
+    width:300px;
+}
+
+
+.heading{
+   
+    font-size: 90px;
+    font-weight: 300;
+    color: rgb(252, 253, 255);
+    text-shadow:2px 3px 6px rgba(223, 228, 240, 0.82) ;
+ 
+}
+.profilepic{
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+    bottom:100px;
+
+}
+.p1{
+    color: #777277;
+}
+.fonta{
+    font-family: Great Vibes ;
+    color: rgb(9, 18, 98);
+    font-size: 20px;
+}
+.fontb{
+    font-family: Montserrat;
+}
+
+.fontc{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fontd{
+    font-family:Merriweather;
+    
+}
+.fonte{
+    font-family: Sacramento;
+}
+.slide1{
+    padding: 20px 50px;
+}
+.q-img{
+    width: 500px;
+    height: 400px;
+}
+.in{
+    display: inline-block;
+}
+
+.b{
+    line-height:1.5;
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    
+    color: white;
+}
+.skhb{
+    border-color: #565456;
+    
+}
+.skhb:hover{
+    border-color: rgb(47, 124, 248);
+}
+.skh{box-shadow: 0px 10px 10px rgba(107, 106, 106, 0.2);
+
+}
+.skh:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 2px 30px 20px rgba(38, 38, 38, 0.483);
+      top: -8px;
+      z-index: 1;
+      border-color: #167dfa
+}
+.skh:hover .card-header{
+    background-color: #167dfa;
+    color: white;
+}
+.icons{
+    padding:5px;
+    
+}
+.icons:hover{
+    
+    text-shadow: 0.5px 1px 2px rgba(172, 170, 170, 0.763);
+}
+.name{
+    width:520px;
+}
+@media only screen and (max-width:855px)
+{
+    .profilepic{
+        width:250px;
+        height: 250px;bottom:70px;
+        
+    }
+
+   
+    
+}
+@media only screen and (max-width:750px)
+{
+    .heading{
+       font-size: 110px;
+    }
+    .name{
+        width:400px;
+     }
+     .profilepic{
+         width:220px;
+         height: 220px;bottom:70px;
+         
+     }
+     
+
+    
+}
+@media only screen and (max-width:580px)
+{
+    .heading{
+       font-size: 80px;
+    }
+    .name{
+        width:300px;
+    } 
+    .profilepic{
+        width:150px;
+        height: 150px;
+        bottom:60px;
+
+    }
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+      
+
+    
+    
+    
+      
+    
+    
+   
+      
+    
+
+
+
+
+  
+  
+
+  

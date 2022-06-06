@@ -30,6 +30,10 @@ body{
     background-color: #4B7BE5;
     width: 100%;
 }
+#gallery{
+    padding: 4% 10% 10% 10%;
+    margin:3px 0px;
+}
 #contact{
     background-color: #06113C;
 }
@@ -167,17 +171,18 @@ a{
         height: 250px;bottom:70px;
         
     }
-
-   
-    
 }
+
 @media only screen and (max-width:750px)
 {
     .heading{
-       font-size: 110px;
+       font-size: 100px;
     }
     .name{
         width:400px;
+     }
+     .div1{
+         margin-left: 40px;
      }
      .profilepic{
          width:220px;
@@ -196,6 +201,9 @@ a{
     .name{
         width:300px;
     } 
+    .div1{
+        margin-left: 20px;
+    }
     .profilepic{
         width:150px;
         height: 150px;
@@ -206,7 +214,57 @@ a{
 
 
 }
-
+div.gallery {
+    border: 3px solid #ccc;
+  }
+  
+div.gallery:hover {
+    border: 3px solid rgb(28, 128, 235);
+    transition: all 0.3s ease-out;
+    box-shadow: 2px 20px 20px rgba(45, 114, 175, 0.781);
+      top: -8px;
+      z-index: 1;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 10px;
+    float: left;
+    width: 24.99999%;
+  }
+  .clearfix{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  
 
 
 

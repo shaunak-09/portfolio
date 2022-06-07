@@ -164,57 +164,16 @@ a{
 .name{
     width:520px;
 }
-@media only screen and (max-width:855px)
-{
-    .profilepic{
-        width:250px;
-        height: 250px;bottom:70px;
-        
-    }
+.about{
+    font-size: 90px;;
 }
-
-@media only screen and (max-width:750px)
-{
-    .heading{
-       font-size: 100px;
-    }
-    .name{
-        width:400px;
-     }
-     .div1{
-         margin-left: 40px;
-     }
-     .profilepic{
-         width:220px;
-         height: 220px;bottom:70px;
-         
-     }
-     
-
-    
+.quali{
+    font-size: 70px;
 }
-@media only screen and (max-width:580px)
-{
-    .heading{
-       font-size: 80px;
-    }
-    .name{
-        width:300px;
-    } 
-    .div1{
-        margin-left: 20px;
-    }
-    .profilepic{
-        width:150px;
-        height: 150px;
-        bottom:60px;
-
-    }
-   
-
-
-}
-div.gallery {
+.skills{
+    font-size: 50px;
+   }
+   div.gallery {
     border: 3px solid #ccc;
   }
   
@@ -250,19 +209,80 @@ div.desc {
     display: table;
     clear: both;
   }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+@media only screen and (max-width:855px)
+{
+    .profilepic{
+        width:250px;
+        height: 250px;bottom:70px;
+        
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
+
+}
+
+@media only screen and (max-width:750px)
+{
+    .heading{
+       font-size: 100px;
     }
+    .name{
+        width:400px;
+     }
+     .div1{
+         margin-left: 40px;
+     }
+     .profilepic{
+         width:220px;
+         height: 220px;bottom:70px;
+         
+     }
+     .about{
+        font-size: 70px;;
+    }
+    .quali{
+        font-size: 50px;
+    }
+    .skills{
+        font-size: 40px;
+    }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    
+}
+@media only screen and (max-width:580px)
+{
+    .heading{
+       font-size: 80px;
+    }
+    .name{
+        width:300px;
+    } 
+    .div1{
+        margin-left: 20px;
+    }
+    .profilepic{
+        width:150px;
+        height: 150px;
+        bottom:60px;
+
+    }
+    .about{
+        font-size: 60px;;
+    }
+    .quali{
+        font-size: 40px;
+    }
+   .skills{
+    font-size: 30px;
+   }
+   .responsive {
+    width: 100%;
   }
+
+
+}
+
   
   
 

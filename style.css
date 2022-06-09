@@ -116,7 +116,7 @@ body{
 }
 .q-img{
     width: 500px;
-    height: 400px;
+    height: auto;
 }
 .in{
     display: inline-block;
@@ -161,9 +161,7 @@ a{
     
     text-shadow: 0.5px 1px 2px rgba(172, 170, 170, 0.763);
 }
-.name{
-    width:520px;
-}
+
 .about{
     font-size: 90px;;
 }
@@ -209,6 +207,9 @@ div.desc {
     display: table;
     clear: both;
   }
+  .hello{
+      font-size: 30px;
+  }
 @media only screen and (max-width:860px)
 {
     .profilepic{
@@ -216,10 +217,10 @@ div.desc {
         height: 250px;bottom:70px;
         
     }
-     .responsive {
+    .responsive {
         width: 49.99999%;
         margin: 6px 0;
-    } 
+    }
 
 }
 
@@ -228,15 +229,13 @@ div.desc {
     .heading{
        font-size: 100px;
     }
-    .name{
-        width:400px;
-     }
+    
      .div1{
          margin-left: 40px;
      }
      .profilepic{
-         width:220px;
-         height: 220px;bottom:70px;
+         width:200px;
+         height: 200px;bottom:70px;
          
      }
      .about{
@@ -259,9 +258,9 @@ div.desc {
     .heading{
        font-size: 80px;
     }
-    .name{
-        width:300px;
-    } 
+   .name{
+       font-size: medium;
+   }
     .div1{
         margin-left: 20px;
     }
@@ -283,8 +282,29 @@ div.desc {
    .responsive {
     width: 100%;
   }
+  .hello{
+      font-size: 25px;
+  }
 
 
+}
+@media only screen and (max-width:450px)
+{
+    .name{
+      font-size:medium;   
+    }
+    .profilepic{
+        width:150px;
+        height: 150px;
+        bottom:60px;
+
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .hello{
+        font-size: 15px;
+    }
 }
 
   
